@@ -1,4 +1,9 @@
 /* Basic Style */
+
+* {
+  box-sizing: border-box;
+}
+
 body {
   background-color: #f8f8f8;
   color: #333;
@@ -12,6 +17,7 @@ body {
 }
 .aaa img {
   width: 100%;
+  display: block;
 }
 .aaa .more_inf {
   font-family: fantasy, cursive;
@@ -52,6 +58,7 @@ button {
   width: 60px;
   font-family: Lato, sans-serif;
   cursor: pointer;
+  padding-left: 0;
 }
 button:hover {
   color: #3a3a3a;
@@ -98,7 +105,7 @@ p > button:hover {
 /* Task list */
 li {
   overflow: hidden;
-  padding: 20px 0;
+  padding: 18px 0 19px;
   border-bottom: 1px solid #eee;
     
   display: flex;
@@ -110,7 +117,7 @@ li > * {
 }
 
 li > input[type="checkbox"] {
-  margin: 0 10px;
+  margin: 0 9px;
 }
 li > label {
   padding-left: 10px;
@@ -128,6 +135,7 @@ button.delete img {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
+  margin-right: 9px;
 }
 button.delete img:hover {
   transform: rotateZ(0);
