@@ -52,7 +52,7 @@ h3 {
   list-style: none;
 }
 input,
-button{
+button {
   outline: none;
 }
 button {
@@ -121,7 +121,7 @@ li > * {
   vertical-align: middle;
 }
 
-li > input[type="checkbox"] {
+li > input [type="checkbox"] {
   margin: 0 9px;
 }
 li > label {
