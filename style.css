@@ -24,8 +24,10 @@ body {
 }
 
 @media (max-width:768px) {
+
   .matrix { text-align: center;
   }
+  
 }
 .main {
   display: block;
