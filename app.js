@@ -16,9 +16,9 @@ var completedTasksHolder=document.getElementById("completed");//completed
 
 //New task list item
 var createNewTaskElement=function(taskString){
+  
   listItem.classList.add("app__list-item");
   var listItem=document.createElement("li");
-
   //input (checkbox)
   var checkBox=document.createElement("input");//checkbx
   checkBox.classList.add("app__input_checkbox");
@@ -29,7 +29,6 @@ var createNewTaskElement=function(taskString){
   editInput.classList.add("app__input_text");
   //button.edit
   var editButton=document.createElement("button");//edit button
-
   //button.delete
   var deleteButton=document.createElement("button");//delete button
   var deleteButtonImg=document.createElement("img");//delete button image
