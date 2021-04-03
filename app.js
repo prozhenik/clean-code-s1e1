@@ -94,10 +94,10 @@ var editTask=function(){
     //label becomes the inputs value.
     label.innerText=editInput.value;
     editBtn.innerText="Edit";
-}else{
+  }else{
     editInput.value=label.innerText;
     editBtn.innerText="Save";
-}
+  }
 
   //toggle .edit-mode on the parent.
   listItem.classList.toggle("app__edit-mode");
