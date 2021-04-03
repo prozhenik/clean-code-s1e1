@@ -17,8 +17,8 @@ var completedTasksHolder=document.getElementById("completed");//completed
 //New task list item
 var createNewTaskElement=function(taskString){
   
-  listItem.classList.add("app__list-item");
   var listItem=document.createElement("li");
+  listItem.classList.add("app__list-item");
   //input (checkbox)
   var checkBox=document.createElement("input");//checkbx
   checkBox.classList.add("app__input_checkbox");
