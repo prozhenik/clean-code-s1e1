@@ -123,10 +123,10 @@
   vertical-align: middle;
 }
 
-.app__add-item > .app__input_checkbox {
+.app__list-item > .app__input_checkbox {
   margin: 0 10px;
 }
-.app__add-item > .app__task_name {
+.app__list-item > .app__task_name {
   padding-left: 3px;
   box-sizing: border-box;
   font-size: 18px;
