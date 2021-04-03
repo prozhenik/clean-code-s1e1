@@ -149,7 +149,7 @@
 }
 
 /* Completed */
-#complited .app__task {
+#completed .app__task {
   text-decoration: line-through;
   color: #888;
 }
