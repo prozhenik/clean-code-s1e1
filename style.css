@@ -32,7 +32,7 @@
   display: block;
 }
 .header__more-info {
-  font-family: fantasy, cursive;
+  font-family: "fantasy", "cursive";
 }
 
 @media (max-width:768px) {
